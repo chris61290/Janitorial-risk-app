@@ -1,19 +1,8 @@
-# 🎈 Blank app template
-
-A simple Streamlit app template for you to modify!
-
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://blank-app-template.streamlit.app/)
-
-### How to run it on your own machine
-
-1. Install the requirements
-
-   ```
-   $ pip install -r requirements.txt
-   ```
-
-2. Run the app
-
-   ```
-   $ streamlit run streamlit_app.py
-   ```
+janitorial-risk-predictor/
+├── app_v5.py                  # (you just downloaded)
+├── trained_model.pkl           # (your trained Random Forest model)
+├── label_encoder.pkl           # (your saved LabelEncoder)
+├── requirements.txt            # (list of libraries needed)
+cd path/to/your/janitorial-risk-predictor
+pip install -r requirements.txt
+streamlit run app_v5.py
